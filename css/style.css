@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    max-width: 100%;
+
+}
+:root{
+    --title-weight:600;
+    --white:#F8F9FA;
+    --gray:#DEE2E6;
+    --dark:#212529;
+
+}
+body{
+    font-family: cairo ;
+    
+}
+
+/* =============== nav bar =============== */
+nav{
+    background-color: var(--dark);
+    color: #F8F9FA;
+}
+nav ul{
+    margin: 0;
+}
+nav ul li{
+    margin-left: 2rem;
+}
+.active{
+    font-weight: bold;
+}
+
+/* - =============== About us ===============*/
+.about-me{
+    background-color: var(--white);
+
+}
+.about-me .title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77.45px;
+    color: #212529;
+    font-style: normal;
+}
+.about-me .about-content .text p{
+    font-size: 20px;
+    line-height: 24px;
+
+}
+.about-me .about-content .text button{
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    padding: 5px 30px;
+    margin-right: 1rem;
+}
+
+
+
+/* =============== services =============== */
+.services{
+    background-color: var(--gray);
+    
+}
+.services h2{
+    font-size: 64px;
+    font-weight: var(--title-weight);
+
+}
+.services  p{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.services .card{
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.25));
+    color:var(--drak)
+}
+.services .card h6{
+    font-weight: 600;
+    font-size: 24px;
+}
+.services .card p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.services .card i{
+    padding: 10px 0;
+    font-size: large;
+}
+.home-testimonial {
+    background-color: #231834;
+    height: 380px
+}
+
+
+
+ /* =============== testimonial ===============  */
+
+ .testimonial{
+    background-color: var(--white);
+
+ }
+ .testimonial .testimonial-title p{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 57px;
+    color: #202020;
+    transform: rotate(-90deg);
+ }
+.testimonial-content{
+
+}
+ .testimonial img{
+    height: auto;
+    width: auto;
+ }
+ .testimonial .active{
+    height: auto;
+    width: auto;
+ }
+.testimonial h6{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #202020;
+}
+
+ /* ================ footer ================ */
+
+footer{
+    background-color: var(--dark);
+    color: var(--white);
+    text-align: center;
+    height: 70px;
+    font-weight: 500;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
